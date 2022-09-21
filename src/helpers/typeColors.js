@@ -1,0 +1,42 @@
+const typeColors = {
+  bug: '#729f3f',
+  dragon: '#53a4cf',
+  fairy: '#fdb9e9',
+  fire: '#fd7d24',
+  ghost: '#7b62a3',
+  ground: '#e8d03b',
+  normal: '#8e9597',
+  psychic: '#f366b9',
+  steel: '#9eb7b',
+  dark: '#707070',
+  electric: '#eed535',
+  fighting: '#d56723',
+  flying: '#3dc7ef',
+  grass: '#9bcc50',
+  ice: '#51c4e7',
+  poison: '#b97fc9',
+  rock: '#a38c21',
+  water: '#4592c4',
+
+  bug_type: '#5e8532',
+  dragon_type: '#4082a4',
+  fairy_type: '#e1a3ce',
+  fire_type: '#e87220',
+  ghost_type: '#634f83',
+  ground_type: '#f7de3f',
+  normal_type: '#a4acaf',
+  psychic_type: '#acb0b0',
+  steel_type: '#b7bcbc',
+  dark_type: '#5b5a5a',
+  electric_type: '#e1c930',
+  fighting_type: '#c35e1f',
+  flying_type: '#37b5d9',
+  grass_type: '#8ab747',
+  ice_type: '#49b2d2',
+  poison_type: '#aa75b8',
+  rock_type: '#927d1e',
+  water_type: '#3e85b3'
+};
+
+
+export default typeColors;
