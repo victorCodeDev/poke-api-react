@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/poke-api-react/static/css/main.cd61a7db.chunk.css",
+    "main.js": "/poke-api-react/static/js/main.3c17b1f2.chunk.js",
+    "main.js.map": "/poke-api-react/static/js/main.3c17b1f2.chunk.js.map",
+    "runtime~main.js": "/poke-api-react/static/js/runtime~main.e41dd621.js",
+    "runtime~main.js.map": "/poke-api-react/static/js/runtime~main.e41dd621.js.map",
+    "static/js/2.7dd13ad8.chunk.js": "/poke-api-react/static/js/2.7dd13ad8.chunk.js",
+    "static/js/2.7dd13ad8.chunk.js.map": "/poke-api-react/static/js/2.7dd13ad8.chunk.js.map",
+    "index.html": "/poke-api-react/index.html",
+    "precache-manifest.fec678ed0a2a8e2726f1e3e543338dd4.js": "/poke-api-react/precache-manifest.fec678ed0a2a8e2726f1e3e543338dd4.js",
+    "service-worker.js": "/poke-api-react/service-worker.js",
+    "static/css/main.cd61a7db.chunk.css.map": "/poke-api-react/static/css/main.cd61a7db.chunk.css.map"
+  }
+}
