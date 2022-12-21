@@ -1,46 +1,51 @@
 p {
-    margin: 0;
+  margin: 0;
 }
 
 .Card {
-    /* background: white; */
-    border-radius: 10px;
+  border-radius: 10px;
+  background: #cbedd5;
+  border-radius: 10px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
 }
 
 .Card__img {
-    text-align: center;
+  text-align: center;
 }
 
 .Card__types {
-    display: flex;
-    justify-content: center;    
+  display: flex;
+  justify-content: center;
 }
 
 .Card__type {
-    padding: 5px 10px;
-    margin: 10px 10px 10px 0;
-    border-radius: 5px;
-    background: cyan;
-    color: #fff;
+  padding: 5px 10px;
+  margin: 10px 10px 10px 0;
+  border-radius: 5px;
+  color: #fff;
+  text-transform: capitalize;
 }
 
 .Card__name {
-    text-align: center;
-    text-transform: capitalize;
-    font-weight: 800;
+  text-align: center;
+  text-transform: capitalize;
+  font-weight: 800;
 }
 
 .Card__info {
-    margin-left: 10px;
-    display: flex;
+  margin-left: 10px;
+  display: flex;
 }
 
 .Card__data {
-    padding-bottom: 10px;
-    flex: auto;
+  padding-bottom: 10px;
+  flex: auto;
 }
 
 .Card__data .title {
-    font-weight: 700;
+  font-weight: 700;
 }
 
+.ability-name {
+  text-transform: capitalize;
+}

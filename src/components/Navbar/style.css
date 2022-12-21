@@ -1,5 +1,7 @@
 .Navbar {
-  padding: 20px;
-  background: #0b7733;
+  padding: 10px;
+  background: #439a97;
   color: white;
+  font-size: 22px;
+  font-weight: bold;
 }

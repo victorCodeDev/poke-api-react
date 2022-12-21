@@ -52,24 +52,20 @@ function App() {
   return (
     <>
       <Navbar />
-      <div>
-        {loading ? <h1 style={{ textAlign: 'center' }}>Cargando...</h1> : (
+      <div className="pokemon-container">
+        {loading ? <h1 style={{ textAlign: 'center', color: 'white' }}>Cargando...</h1> : (
           <>
-            <div className="btn">
-              <button onClick={prev}>Anterior</button>
-              <button onClick={next}>Siguiente</button>
-            </div>
             <div className="grid-container">
               {pokemonData.map((pokemon, i) => {
                 return <Card key={i} pokemon={pokemon} />
               })}
             </div>
-            <div className="btn">
-              <button onClick={prev}>Anterior</button>
-              <button onClick={next}>Siguiente</button>
-            </div>
           </>
         )}
+      </div>
+      <div className="btn">
+        <button onClick={prev}>Anterior</button>
+        <button onClick={next}>Siguiente</button>
       </div>
     </>
   );

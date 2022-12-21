@@ -2,8 +2,12 @@
   box-sizing: border-box;
 }
 
+body {
+  background: #97dece;
+}
+
 .grid-container {
-  width: 70%;
+  width: 94%;
   display: grid;
   margin: 0 auto;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -21,8 +25,36 @@
   padding: 5px 10px;
   margin-right: 10px;
   border-radius: 5px;
-  background: #30a7d7;
+  /* background: #30a7d7; */
+  background: #62b6b7;
   color: #fff;
-  font-size: 1em;
+  font-size: 1.3em;
   cursor: pointer;
+}
+
+/* Works on Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #62b6b7;
+}
+
+/* Works on Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 12px;
+}
+
+*::-webkit-scrollbar-track {
+  /* background: orange; */
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #62b6b7;
+  border-radius: 20px;
+  border: 2px solid #97dece;
+}
+
+.pokemon-container {
+  height: 77vh;
+  margin-top: 20px;
+  overflow: auto;
 }

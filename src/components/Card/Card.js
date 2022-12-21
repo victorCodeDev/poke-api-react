@@ -4,9 +4,7 @@ import './style.css';
 
 function Card({ pokemon }) {
   return (
-    <div className="Card" style={{
-      backgroundColor: typeColors[pokemon.types[0].type.name + '_type'],
-    }}>
+    <div className="Card">
       <div className="Card__img" >
         <img src={pokemon.sprites.front_default} alt="" />
       </div>
@@ -35,7 +33,7 @@ function Card({ pokemon }) {
         </div>
         <div className="Card__data Card__data--ability">
           <p className="title">Ability</p>
-          <p>{pokemon.abilities[0].ability.name}</p>
+          <p className="ability-name">{pokemon.abilities[0].ability.name}</p>
         </div>
       </div>
     </div>
